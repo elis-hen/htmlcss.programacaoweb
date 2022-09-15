@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- meta tags = dados que são lidas apenas pelo sistema -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- compatível para o explore -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descriotion" content="esse é meu site">
+    <!-- pequena descrição que aparece para pessoa -->
+    <meta name="keyworks" content="site, novo, primeiro site">
+    <!-- palavras chaves procuradas no google -->
+    <meta name="author" content="Maria Carolina Souza da Silva">
+    <title>HTML Mídias</title>
+    <!-- título lá encima na barra de navegação -->
+    <style>
+        .menu {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .menu a {
+            color: white;
+            padding: 14px 16px;
+            display: block;
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0%;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <nav class="menu">
+        <a href="index.html">Página inicial</a>
+        &nbsp;&nbsp;
+        <a href="sobrenos.html">Sobre Nós</a>
+        &nbsp;&nbsp;
+        <a href="formulario.html">Formulários</a>
+        &nbsp;&nbsp;
+        <a href="midias.html">Mídias</a>
+        &nbsp;&nbsp;
+        <a href="semantico.html">Div e HTML Semântico</a>
+        &nbsp;&nbsp;
+            <a href="dropdown.html">Dropdown</a>
+    </nav>
+
+    <h1>Mídias</h1>
+
+    <p>CLIQUE NA IMAGEM - imagem com link</p>
+    <a href="sobrenos.html">
+        <img src="https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830_960_720.jpg" alt="flores" title="flores"
+            width="300px"></a>
+    <br><br>
+
+    <hr>
+    <p>Imagem apenas - img</p>
+    <img src="../meu_site/mídias/doces.png" alt="Doces" width="300px">
+    <br>
+    <hr>
+
+
+    <p>Audio</p>
+    <audio src="../meu_site/mídias/425556__t-roy-920__rock-808-beat.mp3" type="audio/mp3" controls
+        controlsList="nodownload">Audio</audio>
+
+
+    <hr>
+    <h2>Videos</h2>
+
+    <p>Iframe Video do professor</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nPEpaft1y1k" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+
+    <h2>Video</h2>
+
+    <video src="../meu_site/mídias/video 15.mp4" width="300px" controls
+        poster="../meu_site/mídias/doces.png"" controlsList=" nodownload" disablepictureinpicture>Video</video>
+    <!-- nofullscreen = para a pessoa não conseguir por em tela cheia -->
+
+    <hr>
+
+</body>
+
+</html>

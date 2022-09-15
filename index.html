@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- meta tags = dados que são lidas apenas pelo sistema -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- compatível para o explore -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descriotion" content="esse é meu site">
+    <!-- pequena descrição que aparece para pessoa -->
+    <meta name="keyworks" content="site, novo, primeiro site">
+    <!-- palavras chaves procuradas no google -->
+    <meta name="author" content="Maria Carolina Souza da Silva">
+    <title>HTML Amora</title>
+    <!-- título lá encima na barra de navegação -->
+    <style>
+        .menu{
+        background-color: #333;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;}
+
+        .menu a {
+        color: white;
+        padding: 14px 16px;
+        display: block;
+        text-decoration: none;}
+
+        body{
+            margin: 0%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="menu">
+        <a href="index.html">Página inicial</a>
+        &nbsp;&nbsp;
+        <a href="sobrenos.html">Sobre Nós</a>
+        &nbsp;&nbsp;
+        <a href="formulario.html">Formulários</a>
+        &nbsp;&nbsp;
+        <a href="midias.html">Mídias</a>
+        &nbsp;&nbsp;
+        <a href="semantico.html">Div e HTML Semântico</a>
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        <a href="dropdown.html">Dropdown</a>
+    </nav>
+
+
+    <hr>
+
+
+    <h1>H1 - TAGS HTML</h1>
+    <!-- usar apenas um H1 -->
+    <hr>
+
+    <h2><mark>H2- Tags gerais de texto</mark> </h2>
+
+    <!-- FORMATAÇÃO DE TEXTO -->
+    <p><b>b - negrito</b></p>
+
+    <p><strong>strong - ênfase</strong></p>
+
+    <p><i>i - itálico</i></p>
+
+    <p><u>u - sublinhado</u></p>
+
+    <p><small>small - fica menor as letras</small></p>
+
+    <p><del> del - deletar</del></p>
+
+    <p> sup - 20<sup>20</sup><br>sub - 10<sub>10</sub></p>
+
+    <p><mark> mark - Destaca texto</mark></p>
+
+    <p>hr - linha que divide</p>
+    <hr>
+    <!-- Linha para dividir sessões  -->
+
+    <h3><mark>H3 - Citações</mark></h3>
+
+    <!-- blockquote SUPER CITAÇÃO -->
+    <p>Lorem ipsum dolor
+    <blockquote> blockquote - ênfase em citações </blockquote> Dignissimos maiores est quas perferendis expedita vitae
+    deserunt fuga iure laudantium ea?Officiis quam pariatur ratione <br> br - (QUEBRA O TEXTO) modi corporis <br><q>q -
+        (CITAÇÃO DIRETA)blanditiis veniam, earum explicabo.</q></p>
+    <!-- a TAG br quebra uma linha  -->
+
+    <p>abbr title - abreviação<br><abbr title="Maria Carolina Souza da Silva">MCSS</abbr></p>
+    <!-- abreviação -->
+    <p>edrress - endereço
+    <address>Avenida, 123</address>
+    </p>
+    <!-- endereço -->
+
+    <!-- *************************LINKS************************ -->
+    <hr>
+    <h4><mark>H4 - Links</mark></h4>
+
+    <a href="https://google.com" target="_blank">Ir para o google</a><br>
+    <a href="sobrenos.html">Sobre nós</a>
+
+
+    <hr>
+
+    <!-- ********************TABELAS*********************** -->
+    <h5><mark>H5- TABELAS</mark></h5>
+
+    <table width="100%" border="1px" style="text-align: center">
+        <tr width="100%">
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Peso</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>22</td>
+            <td>não sei</td>
+        </tr>
+    </table>
+
+
+    <hr>
+
+    <!-- ************************LISTAS******************************** -->
+
+    <h6><mark>H6 - LISTAS</mark></h6>
+
+    <p><strong>Itens da lista - li</strong></p><br>
+
+    <p>Lista desordenada - ul</p>
+    <ul>
+        <li>Arroz</li>
+        <li>Feijáo</li>
+        <li>Macarrão</li>
+        <li>Pão</li>
+    </ul>
+
+    <p>Lista ordenada - ol</p>
+    <ol>
+        <li>Arroz</li>
+        <li>Feijáo</li>
+        <li>Macarrão</li>
+        <li>Pão</li>
+    </ol>
+
+    <p>Listas ordenadas tipo a = ol type="a"</p>
+    <ol type="a">
+        <li>Arroz</li>
+        <li>Feijáo</li>
+        <li>Macarrão</li>
+        <li>Pão</li>
+    </ol>
+
+    <hr>
+
+    <h3><mark>Iframes</mark></h3>
+    <p>Trazer site e videos</p>
+
+    <iframe src="sobrenos.html" frameborder="0"></iframe>
+    <br><br><br><br>
+
+
+    
+    <br>
+
+
+    <iframe src="" frameborder="0" name="meu-iframe" title="Iframe de exemplo" style="border: none;"
+        width="100%"></iframe>
+
+    <a href="http://www.youtube.com" target="meu-iframe">GOOGLE</a>
+    
+
+
+
+</body>
+
+</html>
